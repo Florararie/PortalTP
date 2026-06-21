@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "portaltp",
+  "version": "${version}",
+  "name": "PortalTP",
+  "description": "Adds /portaltp <target> <x> <y> <z>: a /tp-style teleport with blindness, nausea, a portal travel sound, and portal particles.",
+  "authors": ["Floramene"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.floramene.portaltp.PortalTp"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "fabric-api": "*"
+  }
+}
